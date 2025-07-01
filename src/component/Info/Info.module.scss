@@ -1,0 +1,43 @@
+.wrapper {
+    position: absolute;
+    width: 1250px;
+    padding: 40px 20px;
+    background-color: #333;
+    top: calc(90%);
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    .icon {
+        font-size: 50px;
+        color: #707070;
+    }
+
+    .mes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .title {
+        font-size: 17px;
+        color: #fff;
+    }
+
+    .des {
+        font-size: 16px;
+        color: #bdd2d2;
+    }
+}
